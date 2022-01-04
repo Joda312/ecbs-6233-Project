@@ -1,0 +1,26 @@
+	(1)
+VARIABLES	savings
+	
+1.mig	0.346
+	(0.461)
+h_size	-0.225
+	(0.216)
+num_work_age	0.214
+	(0.216)
+numChildren	0.0960
+	(0.237)
+1.hhead_sex	0.229
+	(0.330)
+numFemale	0.222
+	(0.154)
+1.urban	-0.476
+	(0.290)
+1.south	0.141
+	(0.324)
+Constant	1.308***
+	(0.401)
+	
+Observations	7,139
+R-squared	0.001
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
