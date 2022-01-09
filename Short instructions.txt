@@ -1,0 +1,20 @@
+Here are short instructions on how to reproduce the work done:
+
+1) Go the official website of the Life in Kyrgyzstan survey at https://lifeinkyrgyzstan.org/ to get familiar with the survey and the type of data collected.
+
+2) Open the section on data access. To get access to the data you will need to register, sign the user contract and send it the IDSC. 
+
+3) After the application is approved for, download the necessary datasets (it is a longitudinal survey covering several years).
+
+4) Perform the coding work as illustrated in the accompanying do-files.
+
+5) The correct order of running do-files:
+	a) oblast_2013.do, hhold_comp_2013.do, hhold_income_2013.do, remittances_2013.do, savings_credit_2013.do, tot_assets_2013.do
+	b) oblast_2016.do, hhold_comp_2016.do, hhold_income_2016.do, remittances_2016.do, savings_credit_2016.do, tot_assets_2016.do
+	c) oblast_2019.do, hhold_comp_2019.do, hhold_income_2019.do, remittances_2019.do, savings_credit_2019.do, tot_assets_2019.do
+	d) merged_2013.do, merged_2016.do, merged_2019.do
+	e) summary_stats_2013.do, summary_stats_2016.do, summary_stats_2019.do 
+	f) panel.do
+	e) regression.do
+
+6) There is a master do-file where you can run all the do-files.
