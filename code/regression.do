@@ -10,4 +10,3 @@ outreg2 using "../exhibits/Regression_1.xls", replace
 
 regress loan i.mig h_size num_work_age numChildren i.hhead_sex numFemale i.urban i.south, robust
 outreg2 using "../exhibits/Regression_2.xls", replace
-
